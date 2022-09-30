@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: black;
+            color: white;
+            font: 20pt arial;
+            text-align: center;
+        }
+
+        #geradordenum {
+            font-size: 2rem;
+        }
+    </style>
+</head>
+
+<body>
+    <h1> GERADOR DE NÚMEROS ALEATÓRIOS </h1>
+    <button id="geradordenum">Gerar um número aleatório</button>
+
+    <script>
+        const button = document.querySelector('button'); // seleciona o botão
+        const gerarnum = () => gerartexto(Math.random()); // função para gerar número junto da gerar texto, que está logo lá em baixo
+        button.addEventListener('click', gerarnum); // adicionando um evento, para um click, passar o gerarnum
+        const par = document.createElement('p'); // Função de parágrafo, para criar um elemento p
+        document.body.appendChild(par); // Criar dentro do body o parágrafo
+        const gerartexto = (num) => par.textContent = num; // gerando texto, passando o parametro num, textContent para escrever o parágrafo
+    </script>
+</body>
+
+</html>

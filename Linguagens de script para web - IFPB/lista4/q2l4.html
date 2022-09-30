@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+        table {
+            border: 1px solid black;
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        table * {
+            padding: 10px;
+        }
+
+        table tr,
+        table td,
+        table th {
+            border: 1px solid black;
+        }
+
+        .positivo {
+            background-color: green;
+            color: white;
+        }
+
+        .negativo {
+            background-color: red;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Lista 04 - Questão 2</h1>
+    <fieldset>
+        <input type="text" id="desc" placeholder="Descrição" />
+        <input type="number" name="valor" id="valor" placeholder="Valor da transação" />
+        <button>Adicionar</button>
+    </fieldset>
+    <table>
+        <tr>
+            <th>Descrição</th>
+            <th>Valor</th>
+        </tr>
+        <tbody></tbody>
+        <tfoot>
+            <tr>
+                <td>Total</td>
+                <td><span id="total">0</span></td>
+            </tr>
+        </tfoot>
+    </table>
+    <script src="q2l4.js"></script>
+</body>
+
+</html>
