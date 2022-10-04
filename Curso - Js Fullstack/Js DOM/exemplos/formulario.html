@@ -1,0 +1,48 @@
+Código para Início da Aula
+
+
+index.html
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Seletores para Formulários</title>
+    <script src="js/seletor.js"></script>
+</head>
+<body>
+    <form>
+        <p>
+            <label>Nome: </label>
+            <input type="text" id="nome" />
+        </p>
+    
+        <p>
+            <label>Cor primária: </label>
+            <select id="cor">
+                <option value="Amarelo">Amarelo</option>
+                <option value="Azul">Azul</option>
+                <option value="Vermelho">Vermelho</option>
+            </select>
+        </p>
+    
+        <p>
+            <label>Gosta de programar? </label>
+            <input type="radio" value="Sim" id="like-programming" />Sim 
+            <input type="radio" value="Não" id="like-programming" />Não
+        </p>
+    
+        <p>
+            <label>Conhecimentos em programação web: </label><br />
+            <input type="checkbox" value="HTML" id="developer-options" />HTML
+            <input type="checkbox" value="Javascript" id="developer-options" />Javascript
+            <input type="checkbox" value="CSS" id="developer-options" />CSS
+            <input type="checkbox" value="Express" id="developer-options" />Express
+        </p>
+    
+        <button type="button" onclick="mostrarInfo()">Mostrar informações</button>
+    </form>
+</body>
+</html>
