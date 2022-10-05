@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Manipulando Atributos</title>
+  <script src="js/manipulando-formulario.js"></script>
+</head>
+<body>
+  <p>
+    <select onchange="verificarMarcado()">
+      <option value="enabled">Habilitado</option>
+      <option value="disabled">Desabilitado</option>
+    </select>
+  </p>
+
+  <p>
+    <label>Algum texto: </label>
+    <input type="text" id="texto" />
+  </p>
+
+  <p id="mensagem"></p>
+</body>
+</html>
