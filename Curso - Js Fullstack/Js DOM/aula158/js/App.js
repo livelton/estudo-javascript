@@ -58,7 +58,7 @@ class App {
         //aqui vai ser criado o botão remover
         let botaoRemover = document.createElement('button');
         //adicionando um evento pra remover o elemento
-        botaoRemover.setAttribute('onclick', 'app.removerElemento()');
+        botaoRemover.addEventListener('click', app.removerElemento);
         botaoRemover.textContent = 'Remover';
 
         return botaoRemover;
