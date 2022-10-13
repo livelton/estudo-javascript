@@ -13,7 +13,7 @@ let mudarEvento = new Event('change');
 
 //passando como parâmetro o event, para não dar como preterido
 //o código funciona, porque event será global
-function doChange(event){
+function doChange(){
     alert(event.target.value)
 }
 
