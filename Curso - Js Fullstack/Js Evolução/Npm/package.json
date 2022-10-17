@@ -1,0 +1,19 @@
+{
+  "name": "livel",
+  "version": "1.0.0",
+  "description": "estudo de NPM",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "npm",
+    "class",
+    "estdo"
+  ],
+  "author": "Eli",
+  "license": "ISC",
+  "dependencies": {
+    "moment": "^2.29.4"
+  }
+}
