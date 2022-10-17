@@ -13,8 +13,11 @@
   "author": "Eli",
   "license": "ISC",
   "devDependencies": {
-    "@babel/cli": "^7.19.3",
     "@babel/core": "^7.19.3",
-    "@babel/preset-env": "^7.19.4"
+    "@babel/preset-env": "^7.19.4",
+    "babel-cli": "^6.26.0"
+  },
+  "dependencies": {
+    "core-js": "^3.25.5"
   }
 }
