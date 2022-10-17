@@ -1,4 +1,5 @@
 import moment from "moment/src/moment"
+import "planet.js" //importando o arquivo direto
 
 alert(moment().format("HH:mm:ss"))
 
